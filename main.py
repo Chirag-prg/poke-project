@@ -4,7 +4,7 @@ import mysql.connector as ms
 
 
 
-connection = ms.connect(host='localhost',user='root',passwd='mysqlistrash12@',database='accounts')
+connection = ms.connect(host='localhost',user='root',passwd='password',database='accounts')
 if connection.is_connected():
     print("READY TO GO!!!")
 Login_status = 'N'
