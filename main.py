@@ -107,9 +107,9 @@ def user_login():
         random_mode(login_username,login_password)
 def First_Starting():
     print("                    THE POKEMON GAME")
-    print("                    By Chirag Tandon")
-    print("                         XII-A")
-    print("                     Roll no - 1456")
+    print("                    By <Name>")
+    print("                         <Class>")
+    print("                       <Roll no >")
     print("")
     print("")
     print("")
