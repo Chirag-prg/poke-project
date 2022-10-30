@@ -6,7 +6,7 @@ from math import *
 
 
 
-connection = ms.connect(host='<host>',user='<username>',passwd='<password>',database='<database_name>')
+connection = ms.connect(host='localhost',user='<username>',passwd='<password>',database='accounts')
 if connection.is_connected():
     print("READY TO GO!!!")
 Login_status = 'N'
@@ -33,7 +33,6 @@ def pokechoose():
         pokemon = user[0]
         listel = pokemon[0]
         list.append(listel)
-        print(pokemon[0],'(',pokemon[1],')')
         count = count + 1
     list_real.extend(list)
     query1 = "INSERT INTO pokenew VALUES(%s,%s)"
@@ -50,7 +49,7 @@ def pokechoose1():
         pokemon = user[0]
         listel = pokemon[0]
         listq.append(listel)
-        print(pokemon[0],'(',pokemon[1],')')
+
         count = count + 1
     list1_real.extend(listq)
     query1 = "INSERT INTO pokenew VALUES(%s,%s)"
@@ -370,9 +369,6 @@ def random_mode(login_username,login_password):
     print("Your Opponent will be",username2[0])
     print("CHOOSING POKEMON....")
     print("")
-    print(username1[0],"Pokemon's - ")
-    print("")
-    print("BOT Pokemon's - ")
     selection()
     
 def account_creation():
@@ -463,9 +459,9 @@ def user_login():
 
 def First_Starting():
     print("                    THE POKEMON GAME")
-    print("                    By <NAME>")
-    print("                         <CLASS>")
-    print("                     Roll no - <ROLL NO>")
+    print("                    By Chirag Tandon")
+    print("                         XII-A")
+    print("                     Roll no - 1456")
     print("")
     print("")
     print("")
