@@ -4,4 +4,4 @@ A Pokemon game for my school project
 2) Gen 8 only(no max or gmax).
 3) Personal account feature.
 4) 39 different pokemon and 72 difference moves to play with.
-- Made By Frix-Guy(Chirag)
+- Made By Chirag Tandon
